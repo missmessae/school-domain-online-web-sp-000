@@ -12,7 +12,7 @@ attr_accessor :school, :roster, :student, :grade
     else
     @roster[grade] = []
     @roster[grade] << student
-  end
+    end
   end
 
   def grade(grade)
