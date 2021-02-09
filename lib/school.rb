@@ -10,7 +10,6 @@ attr_accessor :school, :roster, :student, :grade
     @roster[grade] = []
     if grade == @roster[grade]
       @roster[grade].map! << student
-
   end
 
   def grade(grade)
