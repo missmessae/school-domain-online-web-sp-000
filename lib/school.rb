@@ -9,7 +9,7 @@ attr_accessor :school, :roster, :student, :grade
   def add_student(student, grade)
     @roster[grade] = []
     if grade == @roster[grade]
-      @roster[grade].collect! << student
+      @roster[grade] << student
     end
   end
 
