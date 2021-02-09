@@ -9,7 +9,8 @@ attr_accessor :school, :roster, :student, :grade
   def add_student(student, grade)
     @roster[grade] = []
     if grade == @roster[grade]
-      @roster[grade] << student
+      @roster[grade].map! << student
+
   end
 
   def grade(grade)
