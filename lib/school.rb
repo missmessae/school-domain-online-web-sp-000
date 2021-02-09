@@ -10,8 +10,8 @@ attr_accessor :school, :roster, :student, :grade
     if @roster.include?(grade)
       @roster[grade] << student
     else
-    @roster[grade] = []
-    @roster[grade] << student
+      @roster[grade] = []
+      @roster[grade] << student
     end
   end
 
