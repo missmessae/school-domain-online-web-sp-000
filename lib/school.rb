@@ -8,7 +8,7 @@ attr_accessor :school, :roster, :student, :grade
 
   def add_student(student, grade)
     if @roster.include?(grade)
-      @roster << student
+      @roster[grade] << student
     else
     @roster[grade] = []
     @roster[grade] << student
