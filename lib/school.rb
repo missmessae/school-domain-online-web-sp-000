@@ -20,7 +20,8 @@ attr_accessor :school, :roster, :student, :grade
   end
 
   def sort
-    @roster.sort
+    @sorted_roster = {}
+    @roster{|grade, name| grade.sort && name.sort}
 
   end
 
