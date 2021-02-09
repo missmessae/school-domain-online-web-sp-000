@@ -19,5 +19,8 @@ attr_accessor :school, :roster, :student, :grade
     @roster[grade]
   end
 
+  def sort
+    @roster.values.sort
+  end
 
 end
