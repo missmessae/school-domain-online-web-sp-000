@@ -7,8 +7,8 @@ class School
   end
 
   def add_student(student, grade)
-    @roster.collect![grade] = []
-    @roster.collect![grade] << student
+    @roster.collect[grade] = []
+    @roster.collect[grade] << student
 
   end
 
